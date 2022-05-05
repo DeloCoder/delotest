@@ -1,0 +1,87 @@
+h1 {font-family: Georgia, 'Times New Roman', Times, serif; font-variant: small-caps; font-size: 9em; color: rgb(238, 89, 89);margin: 90px;}
+h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 40px; color: #BE8C63; margin: 50px;}
+h3 { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; color: rgb(26, 222, 222); background: #C2F69B; margin: 50px ; display: inline-block;}
+body {background-color: #E4D1B9;}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #0d81b76f;
+    padding: 15px;
+}
+.nav-enlace {
+    display: inline-block;
+    background-color: #205375;
+    color:#EEE4AB;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover {
+    background: #087689;  
+}
+
+.direcciones {
+     color: #7f7d92;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     margin-left: 5px;
+    }
+
+
+.fondo {
+    background-color: #8FcDD9;
+}
+
+.columna {
+    background-color: #8FBDD3;
+    color: antiquewhite;
+    padding: 10px;
+    width: 25%;
+    margin: 30Px;   
+}
+.botones {
+    color: #990101;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* margin-left: ; 30px */ 
+    /* margin-bottom: 100px; */
+    margin: 20px;
+    width: fit-content;
+}
+.botones2 {
+    background-color: #c39b88;
+    color: rgb(214, 207, 198);
+    padding: 10px;
+    width:80% ;
+    margin: 30Px; 
+}
+.encabezado {
+    display: flex;
+}
+
+button {background-color: #A97175;
+    color: aliceblue;}
+button:hover {background: #f63743;}
+button:active { background: #9c030d;}
+
+.nav-boton { background: salmon;
+             color:rgb(214, 207, 198);
+             padding: 10px;
+             border: 2px solid rgb(255, 251, 251);
+}
+
+@media (max-width: 600px) 
+   {  nav { background: rgb(82, 208, 210); 
+           flex-direction: column; }
+      .nav-enlace { margin: 10px; 
+      } 
+      .nav-boton {display: inline-block;
+      }
+      .desaparece {display:none; 
+      }
+  }
+
