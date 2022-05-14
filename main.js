@@ -1,44 +1,24 @@
-//var
-var empleado = "juanito perez";
-console.log(empleado);
 
-var empleado = "juanito lopez";
-console.log(empleado);
-//let data
+const operacion=prompt("elija una operacion:   Suma, Resta, multiplicacion o Division");
+const numero1= Number(prompt("elija un numero: "));
+const numero2= Number(prompt("elija otro numero: "));
 
-
-// let producto = "azucar";
-// console.log(typeof producto);
-// let producto = "manzana";
-// console.log(producto);
-
-let nombreEmpleado = "DIEGO DEL HOYO"; //string
-let precioProducto = 2000 //number
-let miVariableBooleana = true // boolean(true o false)
-
-console.log(nombreEmpleado);
-console.log(precioProducto);
-console.log(miVariableBooleana);
-
-
-//suma
-let a = 2;
-let b = 3;
-let resultado = a+b;
-console.log("suma: " , resultado);
-
-
-console.log("hola", 1,2,3,4,false);
-
-
-
-
-
-
-
-
-
-//const
-const carrito = "carrito de mercado";
-
-
+if(isNaN(numero1) || isNaN(numero2))
+{ alert("numeros no validos")}
+else
+{
+  if (operacion==="suma")
+  { console.log("la suma es: "+(numero1+numero2));
+}
+ else if (operacion==="resta")
+{ console.log("la resta es: "+(numero1-numero2));
+}
+ else if (operacion==="multiplicacion")
+{ console.log("la multiplicacion es: "+(numero1*numero2));
+}
+ else if (operacion==="division")
+{ console.log("la division es: "+(numero1/numero2));
+}
+  if (numero2===0)
+{ console.log("no se puede dividir por 0");}
+}

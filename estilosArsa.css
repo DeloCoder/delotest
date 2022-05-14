@@ -75,7 +75,7 @@ button:active { background: #9c030d;}
 }
 
 @media (max-width: 600px) 
-   {  nav { background: rgb(82, 208, 210); 
+   {  nav{ background: rgb(82, 208, 210); 
            flex-direction: column; }
       .nav-enlace { margin: 10px; 
       } 
